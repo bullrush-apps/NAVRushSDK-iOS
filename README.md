@@ -1,2 +1,2 @@
 # NAVRushSDK-iOS
-Native iOS SDK for NAVRush Indoor-Outdoor Positioning System
+iOS SDK for NAVRush Indoor-Outdoor Positioning System
