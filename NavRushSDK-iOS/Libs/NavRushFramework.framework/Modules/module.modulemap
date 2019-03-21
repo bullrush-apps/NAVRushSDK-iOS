@@ -1,0 +1,11 @@
+framework module NavRushFramework {
+  umbrella header "NavRushFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module NavRushFramework.Swift {
+    header "NavRushFramework-Swift.h"
+    requires objc
+}

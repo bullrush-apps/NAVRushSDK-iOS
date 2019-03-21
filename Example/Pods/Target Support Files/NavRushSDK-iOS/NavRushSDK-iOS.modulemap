@@ -1,0 +1,6 @@
+framework module NavRushSDK_iOS {
+  umbrella header "NavRushSDK-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

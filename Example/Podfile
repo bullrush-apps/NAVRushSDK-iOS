@@ -1,0 +1,8 @@
+use_frameworks!
+
+target 'NavRushSDK_Example' do
+  pod 'NavRushSDK-iOS', :path => '../'
+  pod 'CocoaDebug', :configurations => ['Debug']
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+end

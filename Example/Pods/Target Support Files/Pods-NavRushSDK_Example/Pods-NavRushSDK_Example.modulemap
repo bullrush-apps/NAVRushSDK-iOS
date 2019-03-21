@@ -1,0 +1,6 @@
+framework module Pods_NavRushSDK_Example {
+  umbrella header "Pods-NavRushSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

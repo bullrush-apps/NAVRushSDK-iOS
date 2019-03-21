@@ -1,0 +1,46 @@
+{
+  "name": "NavRushSDK",
+  "version": "0.1.0",
+  "summary": "SDK for NavRush - localisation framework",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://www.navrush.com/",
+  "license": {
+    "type": "Commercial",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bullrush Apps": "developers@bullrush.app"
+  },
+  "source": {
+    "git": "git@bitbucket.org:micromanagerapps/navrushsdk-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "NavRushSDK/Classes/**/*",
+  "vendored_frameworks": "NavRushSDK/Libs/NavRushFramework.framework",
+  "dependencies": {
+    "Alamofire": [
+      "4.8.1"
+    ],
+    "AlamofireObjectMapper": [
+      "~> 5.2"
+    ],
+    "thenPromise": [
+      "4.2.1"
+    ],
+    "SwifterSwift/SwiftStdlib": [
+
+    ],
+    "SwifterSwift/Foundation": [
+
+    ],
+    "Starscream": [
+      "~> 3.0.2"
+    ],
+    "Disk": [
+      "~> 0.4.0"
+    ]
+  }
+}

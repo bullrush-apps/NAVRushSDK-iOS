@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NavRush Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/NavRush" class="dashAnchor"></a>
+    <a title="NavRush Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">NavRushSDK Docs</a> (53% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">NavRushSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        NavRush Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/NavRush.html">NavRush</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NavRushBeacon.html">NavRushBeacon</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NavRushBoundary.html">NavRushBoundary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NavRushConfig.html">NavRushConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NavRushLocationData.html">NavRushLocationData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NavRushPosition.html">NavRushPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NavRushRelativePosition.html">NavRushRelativePosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NavRushRoom.html">NavRushRoom</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NullableDateTransfrom.html">NullableDateTransfrom</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/GPSTrackerErrorType.html">GPSTrackerErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NavRushError.html">NavRushError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/NavRushDelegate.html">NavRushDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>NavRush</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">NavRush</span></code></pre>
+
+                </div>
+              </div>
+            <p>📌 Singleton Class to access tracking framework NavRush</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/public"></a>
+                <a name="//apple_ref/swift/Section/public" class="dashAnchor"></a>
+                <a href="#/public">
+                  <h3 class="section-name">public</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C14sharedInstanceACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/sharedInstance" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C14sharedInstanceACvpZ">sharedInstance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Singleton** instance</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">sharedInstance</span><span class="p">:</span> <span class="kt">NavRush</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C13currentUserIdSSvp"></a>
+                    <a name="//apple_ref/swift/Property/currentUserId" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C13currentUserIdSSvp">currentUserId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>change anytime and change userId identification of your requests</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">currentUserId</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C13currentServerSSvp"></a>
+                    <a name="//apple_ref/swift/Property/currentServer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C13currentServerSSvp">currentServer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read only*<em>, call *config</em> to change this variable</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private(set)</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">currentServer</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C13currentApiKeySSvp"></a>
+                    <a name="//apple_ref/swift/Property/currentApiKey" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C13currentApiKeySSvp">currentApiKey</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read only*<em>, call *config</em> to change this variable</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private(set)</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">currentApiKey</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C13navrushConfigAA0abE0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/navrushConfig" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C13navrushConfigAA0abE0CSgvp">navrushConfig</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Read only*<em>, call *config</em> to change this variable</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private(set)</span> <span class="kd">public</span> <span class="k">var</span> <span class="nv">navrushConfig</span><span class="p">:</span> <span class="kt"><a href="../Classes/NavRushConfig.html">NavRushConfig</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C8delegateAA0aB8Delegate_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C8delegateAA0aB8Delegate_pSgvp">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Public delegate for NavRush SDK</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/NavRushDelegate.html">NavRushDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C6config6server6apiKey0F6Secret6userId4then7PromiseCyAA0aB6ConfigCGSSSg_A2OSStF"></a>
+                    <a name="//apple_ref/swift/Method/config(server:apiKey:apiSecret:userId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C6config6server6apiKey0F6Secret6userId4then7PromiseCyAA0aB6ConfigCGSSSg_A2OSStF">config(server:apiKey:apiSecret:userId:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Configures NavRush SDK</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    <p>You can get your apiKey and apiSecret using WebPortal or via API</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">config</span><span class="p">(</span><span class="nv">server</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">apiKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">apiSecret</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">userId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Promise</span><span class="o">&lt;</span><span class="kt"><a href="../Classes/NavRushConfig.html">NavRushConfig</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>server</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>NavRush Server, fallbacks to default</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>apiKey</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>NavRush Application ID</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>apiSecret</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>NavRush Application Secret</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>User identifier, user can have multiple devices</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Promise<NavRushConfig></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C13startTrackingyyKF"></a>
+                    <a name="//apple_ref/swift/Method/startTracking()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C13startTrackingyyKF">startTracking()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Starts NavRush tracking for current userId</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    NavRushSDK will use all available sources to track user&rsquo;s position
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">startTracking</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C12stopTrackingyyKF"></a>
+                    <a name="//apple_ref/swift/Method/stopTracking()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C12stopTrackingyyKF">stopTracking()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stops NavRush tracking for current userId</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">stopTracking</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/WebSocketDelegate"></a>
+                <a name="//apple_ref/swift/Section/WebSocketDelegate" class="dashAnchor"></a>
+                <a href="#/WebSocketDelegate">
+                  <h3 class="section-name">WebSocketDelegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C19websocketDidConnect6sockety10Starscream15WebSocketClient_p_tF"></a>
+                    <a name="//apple_ref/swift/Method/websocketDidConnect(socket:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C19websocketDidConnect6sockety10Starscream15WebSocketClient_p_tF">websocketDidConnect(socket:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">websocketDidConnect</span><span class="p">(</span><span class="nv">socket</span><span class="p">:</span> <span class="kt">WebSocketClient</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C22websocketDidDisconnect6socket5errory10Starscream15WebSocketClient_p_s5Error_pSgtF"></a>
+                    <a name="//apple_ref/swift/Method/websocketDidDisconnect(socket:error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C22websocketDidDisconnect6socket5errory10Starscream15WebSocketClient_p_s5Error_pSgtF">websocketDidDisconnect(socket:error:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">websocketDidDisconnect</span><span class="p">(</span><span class="nv">socket</span><span class="p">:</span> <span class="kt">WebSocketClient</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C26websocketDidReceiveMessage6socket4texty10Starscream15WebSocketClient_p_SStF"></a>
+                    <a name="//apple_ref/swift/Method/websocketDidReceiveMessage(socket:text:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C26websocketDidReceiveMessage6socket4texty10Starscream15WebSocketClient_p_SStF">websocketDidReceiveMessage(socket:text:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">websocketDidReceiveMessage</span><span class="p">(</span><span class="nv">socket</span><span class="p">:</span> <span class="kt">WebSocketClient</span><span class="p">,</span> <span class="nv">text</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10NavRushSDK0aB0C23websocketDidReceiveData6socket4datay10Starscream15WebSocketClient_p_10Foundation0G0VtF"></a>
+                    <a name="//apple_ref/swift/Method/websocketDidReceiveData(socket:data:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10NavRushSDK0aB0C23websocketDidReceiveData6socket4datay10Starscream15WebSocketClient_p_10Foundation0G0VtF">websocketDidReceiveData(socket:data:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">websocketDidReceiveData</span><span class="p">(</span><span class="nv">socket</span><span class="p">:</span> <span class="kt">WebSocketClient</span><span class="p">,</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://www.navrush.com/" target="_blank" rel="external">Bullrush Apps</a>. All rights reserved. (Last updated: 2019-03-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.5</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

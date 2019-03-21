@@ -1,0 +1,67 @@
+PODS:
+  - Alamofire (4.8.1)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - CocoaDebug (0.5.9)
+  - Disk (0.4.0)
+  - GoogleMaps (3.0.3):
+    - GoogleMaps/Maps (= 3.0.3)
+  - GoogleMaps/Base (3.0.3)
+  - GoogleMaps/Maps (3.0.3):
+    - GoogleMaps/Base
+  - GooglePlaces (3.0.3):
+    - GoogleMaps/Base (= 3.0.3)
+  - NavRushSDK-iOS (0.1.0):
+    - Alamofire (= 4.8.1)
+    - AlamofireObjectMapper (~> 5.2)
+    - Disk (~> 0.4.0)
+    - Starscream (~> 3.0.2)
+    - SwifterSwift/Foundation
+    - SwifterSwift/SwiftStdlib
+    - thenPromise (= 4.2.1)
+  - ObjectMapper (3.4.2)
+  - Starscream (3.0.6)
+  - SwifterSwift/Foundation (4.6.0)
+  - SwifterSwift/SwiftStdlib (4.6.0)
+  - thenPromise (4.2.1)
+
+DEPENDENCIES:
+  - CocoaDebug
+  - GoogleMaps
+  - GooglePlaces
+  - NavRushSDK-iOS (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - CocoaDebug
+    - Disk
+    - GoogleMaps
+    - GooglePlaces
+    - ObjectMapper
+    - Starscream
+    - SwifterSwift
+    - thenPromise
+
+EXTERNAL SOURCES:
+  NavRushSDK-iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  CocoaDebug: a9340ab62aff3d42937fe789f810552a14751d52
+  Disk: ef2956657d5bb56034b38b29b352170165226440
+  GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
+  GooglePlaces: f09e76993c9c3ee4af8f4f7f535bb94d6aa3b649
+  NavRushSDK-iOS: 5794cc65707a7385bec931c1f6ebcb6d7a440361
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
+  thenPromise: 8cf34fe40b0c877338feb544d64265d184d8af7f
+
+PODFILE CHECKSUM: 3c08a73d13f5a4834b0b3d6396d642b09076f1f5
+
+COCOAPODS: 1.5.3

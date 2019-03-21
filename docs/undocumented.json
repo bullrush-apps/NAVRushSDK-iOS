@@ -1,0 +1,320 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushBeacon.swift",
+      "line": 15,
+      "symbol": "NavRushBeacon._id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushBeacon.swift",
+      "line": 16,
+      "symbol": "NavRushBeacon.applicationId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushBeacon.swift",
+      "line": 17,
+      "symbol": "NavRushBeacon.minor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushBeacon.swift",
+      "line": 18,
+      "symbol": "NavRushBeacon.major",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushBeacon.swift",
+      "line": 19,
+      "symbol": "NavRushBeacon.power",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushBeacon.swift",
+      "line": 20,
+      "symbol": "NavRushBeacon.uuid",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushBeacon.swift",
+      "line": 21,
+      "symbol": "NavRushBeacon.room",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushBeacon.swift",
+      "line": 22,
+      "symbol": "NavRushBeacon.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushBeacon.swift",
+      "line": 23,
+      "symbol": "NavRushBeacon.desc",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushBeacon.swift",
+      "line": 42,
+      "symbol": "NavRushBeacon.proximity",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushBeacon.swift",
+      "line": 43,
+      "symbol": "NavRushBeacon.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushLocationData.swift",
+      "line": 14,
+      "symbol": "NavRushLocationData.lat",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushLocationData.swift",
+      "line": 15,
+      "symbol": "NavRushLocationData.lng",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushLocationData.swift",
+      "line": 16,
+      "symbol": "NavRushLocationData.horizontalAccuracy",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushLocationData.swift",
+      "line": 17,
+      "symbol": "NavRushLocationData.verticalAccuracy",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushLocationData.swift",
+      "line": 18,
+      "symbol": "NavRushLocationData.altitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushLocationData.swift",
+      "line": 19,
+      "symbol": "NavRushLocationData.heading",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushLocationData.swift",
+      "line": 20,
+      "symbol": "NavRushLocationData.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushRelativePosition.swift",
+      "line": 15,
+      "symbol": "NavRushRelativePosition.x",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushRelativePosition.swift",
+      "line": 16,
+      "symbol": "NavRushRelativePosition.y",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushRoom.swift",
+      "line": 13,
+      "symbol": "NavRushRoom.applicationId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushRoom.swift",
+      "line": 14,
+      "symbol": "NavRushRoom._id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushRoom.swift",
+      "line": 15,
+      "symbol": "NavRushRoom.width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushRoom.swift",
+      "line": 16,
+      "symbol": "NavRushRoom.height",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushRoom.swift",
+      "line": 17,
+      "symbol": "NavRushRoom.name",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Model/NavRushRoom.swift",
+      "line": 18,
+      "symbol": "NavRushRoom.desc",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NavRush.swift",
+      "line": 10,
+      "symbol": "NavRushDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NavRush.swift",
+      "line": 60,
+      "symbol": "NavRushError.auth(message:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NavRush.swift",
+      "line": 61,
+      "symbol": "NavRushError.unknown(stack:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NavRush.swift",
+      "line": 62,
+      "symbol": "NavRushError.track(message:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NavRush.swift",
+      "line": 63,
+      "symbol": "NavRushError.gps(type:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NavRush.swift",
+      "line": 581,
+      "symbol": "NavRush.websocketDidConnect(socket:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NavRush.swift",
+      "line": 585,
+      "symbol": "NavRush.websocketDidDisconnect(socket:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NavRush.swift",
+      "line": 589,
+      "symbol": "NavRush.websocketDidReceiveMessage(socket:text:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NavRush.swift",
+      "line": 604,
+      "symbol": "NavRush.websocketDidReceiveData(socket:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NavRushConfig.swift",
+      "line": 17,
+      "symbol": "NavRushConfig.init(isLocal:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NullableDateTransform.swift",
+      "line": 13,
+      "symbol": "NullableDateTransfrom.Object",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NullableDateTransform.swift",
+      "line": 14,
+      "symbol": "NullableDateTransfrom.JSON",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NullableDateTransform.swift",
+      "line": 16,
+      "symbol": "NullableDateTransfrom.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NullableDateTransform.swift",
+      "line": 18,
+      "symbol": "NullableDateTransfrom.transformFromJSON(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/NullableDateTransform.swift",
+      "line": 42,
+      "symbol": "NullableDateTransfrom.transformToJSON(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Trackers/NavRushGPSTracker.swift",
+      "line": 11,
+      "symbol": "GPSTrackerErrorType.timedOut",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Trackers/NavRushGPSTracker.swift",
+      "line": 12,
+      "symbol": "GPSTrackerErrorType.restricted",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Trackers/NavRushGPSTracker.swift",
+      "line": 13,
+      "symbol": "GPSTrackerErrorType.cancelled",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS/NavRushSDK-iOS/Classes/Trackers/NavRushTracker.swift",
+      "line": null,
+      "symbol": "NavRushTracker",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/tr/Documents/Projects/NavRush/NavRushSDK-iOS"
+}
