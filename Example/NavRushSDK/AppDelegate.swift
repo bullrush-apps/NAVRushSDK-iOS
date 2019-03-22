@@ -9,7 +9,6 @@
 //API Key :   AIzaSyBL0xL4ywfzt4eOkdbxpp-k1IS_xSOkfms
 
 import UIKit
-import CocoaDebug
 import GoogleMaps
 
 @UIApplicationMain
@@ -19,7 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        CocoaDebug.enable()
         GMSServices.provideAPIKey("AIzaSyAZwfx-6j2rkAWkrtG2_pRqqPQao-zgFsU")
         return true
     }
@@ -50,11 +48,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 //normal print
-public func print<T>(file: String = #file, function: String = #function, line: Int = #line, _ message: T, color: UIColor = .white) {
-    swiftLog(file, function, line, message, color, false)
-}
-
-//unicode print
-public func print_UNICODE<T>(file: String = #file, function: String = #function, line: Int = #line, _ message: T, color: UIColor = .white) {
-    swiftLog(file, function, line, message, color, true)
-}
+//public func print<T>(file: String = #file, function: String = #function, line: Int = #line, _ message: T, color: UIColor = .white) {
+//    swiftLog(file, function, line, message, color, false)
+//}
+//
+////unicode print
+//public func print_UNICODE<T>(file: String = #file, function: String = #function, line: Int = #line, _ message: T, color: UIColor = .white) {
+//    swiftLog(file, function, line, message, color, true)
+//}
