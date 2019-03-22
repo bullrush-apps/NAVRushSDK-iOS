@@ -31,7 +31,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'MyApp' do
-pod 'NavRushSDK-iOS', '~> 1.0'
+pod 'NavRushSDK-iOS', '~> 0.1.0'
 end
 ```
 
