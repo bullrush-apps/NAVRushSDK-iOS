@@ -13,7 +13,6 @@ import CoreLocation
 
 class ViewController: UIViewController {
     @IBOutlet weak var mainTableView: UITableView!
-    
     @IBOutlet weak var mapView: GMSMapView!
     
     var beaconData:[NavRushBeacon] = []
