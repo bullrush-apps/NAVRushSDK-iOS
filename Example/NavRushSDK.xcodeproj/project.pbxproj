@@ -216,7 +216,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
-				"${PODS_ROOT}/../../NavRushSDK-iOS/Libs/NavRushFramework.framework",
+				"${PODS_ROOT}/NavRushFramework/NavRushFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/NavRushSDK-iOS/NavRushSDK_iOS.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",

@@ -21,10 +21,8 @@ NavRush SDK is cross-platform unified localisation Indoor-Outdoor solution. Plea
   s.source           = { :git => 'https://github.com/bullrush-apps/NAVRushSDK-iOS.git', :tag => s.version.to_s }
   s.swift_version = '4.2'
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'NavRushSDK-iOS/Classes/**/*'
-  s.vendored_frameworks = 'NavRushSDK-iOS/Libs/NavRushFramework.framework'
-  
+
   s.dependency 'Alamofire', '4.8.1'
   s.dependency 'AlamofireObjectMapper', '~> 5.2'
   s.dependency 'thenPromise', '4.2.1'
@@ -32,4 +30,5 @@ NavRush SDK is cross-platform unified localisation Indoor-Outdoor solution. Plea
   s.dependency 'SwifterSwift/Foundation'
   s.dependency 'Starscream', '~> 3.0.2'
   s.dependency 'Disk', '~> 0.4.0'
+  s.dependency 'NavRushFramework', '1.0.1'
 end

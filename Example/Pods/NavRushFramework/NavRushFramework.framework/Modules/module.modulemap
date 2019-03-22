@@ -1,0 +1,4 @@
+framework module NavRushFramework {
+    header "NavRushFramework-Swift.h"
+    requires objc
+}

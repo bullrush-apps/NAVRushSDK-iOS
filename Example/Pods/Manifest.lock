@@ -11,10 +11,12 @@ PODS:
     - GoogleMaps/Base
   - GooglePlaces (3.0.3):
     - GoogleMaps/Base (= 3.0.3)
+  - NavRushFramework (1.0.1)
   - NavRushSDK-iOS (0.1.0):
     - Alamofire (= 4.8.1)
     - AlamofireObjectMapper (~> 5.2)
     - Disk (~> 0.4.0)
+    - NavRushFramework (= 1.0.1)
     - Starscream (~> 3.0.2)
     - SwifterSwift/Foundation
     - SwifterSwift/SwiftStdlib
@@ -37,6 +39,7 @@ SPEC REPOS:
     - Disk
     - GoogleMaps
     - GooglePlaces
+    - NavRushFramework
     - ObjectMapper
     - Starscream
     - SwifterSwift
@@ -52,7 +55,8 @@ SPEC CHECKSUMS:
   Disk: ef2956657d5bb56034b38b29b352170165226440
   GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
   GooglePlaces: f09e76993c9c3ee4af8f4f7f535bb94d6aa3b649
-  NavRushSDK-iOS: 6c8b41f1def183653911dfaee52b7516e2843128
+  NavRushFramework: c266350d52566786c24b3f1c868b51f5fab1ffa4
+  NavRushSDK-iOS: b79b053330e13a42e9c1284489f3e56a294a32e8
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
   Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
   SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
