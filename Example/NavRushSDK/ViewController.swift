@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import NavRushSDK
+import NavRushSDK_iOS
 import GoogleMaps
 import CoreLocation
 

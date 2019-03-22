@@ -12,9 +12,10 @@
     "Bullrush Apps": "developers@bullrush.app"
   },
   "source": {
-    "git": "git@github.com:bullrush-apps/NAVRushSDK-iOS.git",
+    "git": "https://github.com/bullrush-apps/NAVRushSDK-iOS.git",
     "tag": "0.1.0"
   },
+  "swift_version": "4.2",
   "platforms": {
     "ios": "10.0"
   },

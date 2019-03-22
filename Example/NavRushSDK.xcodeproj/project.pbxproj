@@ -22,7 +22,7 @@
 		3125CE262224B32100F8A040 /* BeaconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconCell.swift; sourceTree = "<group>"; };
 		3855C1DA51503251831EBC7D /* Pods-NavRushSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavRushSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavRushSDK_Example/Pods-NavRushSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3EBFD51C9F3962057038DFA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4026646885F69E4F10A4F167 /* NavRushSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NavRushSDK.podspec; path = ../NavRushSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4026646885F69E4F10A4F167 /* NavRushSDK-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "NavRushSDK-iOS.podspec"; path = "../../NAVRushSDK-iOS/NavRushSDK-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4A7049FE6A385531F38493C0 /* Pods_NavRushSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavRushSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* NavRushSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavRushSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				4026646885F69E4F10A4F167 /* NavRushSDK.podspec */,
+				4026646885F69E4F10A4F167 /* NavRushSDK-iOS.podspec */,
 				3EBFD51C9F3962057038DFA9 /* README.md */,
 				9141B833736D550A0E868974 /* LICENSE */,
 			);

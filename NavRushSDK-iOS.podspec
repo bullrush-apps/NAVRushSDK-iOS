@@ -18,8 +18,8 @@ NavRush SDK is cross-platform unified localisation Indoor-Outdoor solution. Plea
   s.homepage         = 'https://www.navrush.com/'
   s.license          = { :type => 'Commercial', :file => 'LICENSE' }
   s.author           = { 'Bullrush Apps' => 'developers@bullrush.app' }
-  s.source           = { :git => 'git@github.com:bullrush-apps/NAVRushSDK-iOS.git', :tag => s.version.to_s }
-
+  s.source           = { :git => 'https://github.com/bullrush-apps/NAVRushSDK-iOS.git', :tag => s.version.to_s }
+  s.swift_version = '4.2'
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'NavRushSDK-iOS/Classes/**/*'

@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		Ng2lnf1v+X2sIaHJ+NatsGInSTs=
+		</data>
 		<key>Headers/NavRushFramework-Swift.h</key>
 		<data>
 		UYKPs6cvEwyFu5AzpX1njuuBBTM=
@@ -16,13 +20,17 @@
 		<data>
 		wGAYyd8kMc8DbE99up9Fm422Gwc=
 		</data>
+		<key>Modules/.DS_Store</key>
+		<data>
+		Qh7q1QAnOra5y0nBrPLuUb8N/TU=
+		</data>
 		<key>Modules/NavRushFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
 		tqvRGtEALmGSxFgWeRtWNR8qVmI=
 		</data>
 		<key>Modules/NavRushFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		GMAeFmDqP0XQ1BQbn/f5E5dRrac=
+		vzkeiRfdfY9Zj0K4KWrOiMsUJ/c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,11 +76,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GMAeFmDqP0XQ1BQbn/f5E5dRrac=
+			vzkeiRfdfY9Zj0K4KWrOiMsUJ/c=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pr0hhyN1Y49gpj8+4EbgZUDo6v86nokSow5pZ9y1AvY=
+			yDFINUmhTVBLkGIXVJG0Yb836IUvbIJRvm2DVu9LFTk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

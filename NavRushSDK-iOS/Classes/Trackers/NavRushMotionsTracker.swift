@@ -138,7 +138,7 @@ class NavRushMotionsTracker:NSObject {
             })
             
             // Add the timer to the current run loop.
-            RunLoop.current.add(self.motionTimer!, forMode: RunLoop.Mode.defaultRunLoopMode)
+            RunLoop.current.add(self.motionTimer!, forMode: RunLoop.Mode.default)
         }
     }
 }
