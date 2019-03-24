@@ -31,4 +31,5 @@ NavRush SDK is cross-platform unified localisation Indoor-Outdoor solution. Plea
   s.dependency 'Starscream', '~> 3.0.2'
   s.dependency 'Disk', '~> 0.4.0'
   s.dependency 'NavRushFramework', '1.0.1'
+  s.dependency 'FCUUID'
 end
